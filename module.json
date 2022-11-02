@@ -1,0 +1,105 @@
+{
+  "name": "pf2e-novel-options-magic",
+  "title": "PF2e Novel Options: Magic",
+  "description": "A module to implement the options from Novel Options: Magic.",
+  "author": "Delioth",
+  "version": "0.6.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.283"
+  },
+  "packs": [
+    {
+      "label": "Novel Magic - Actions",
+      "type": "Item",
+      "name": "novel-magic-actions",
+      "path": "./packs/novel-magic-actions.db",
+      "system": "pf2e",
+      "package": "pf2e-novel-options-magic",
+      "private": false
+    },
+    {
+      "label": "Novel Magic - Class",
+      "type": "Item",
+      "name": "novel-magic-class",
+      "path": "./packs/novel-magic-class.db",
+      "system": "pf2e",
+      "package": "pf2e-novel-options-magic",
+      "private": false
+    },
+    {
+      "label": "Novel Magic - Features",
+      "type": "Item",
+      "name": "novel-magic-features",
+      "path": "./packs/novel-magic-features.db",
+      "system": "pf2e",
+      "package": "pf2e-novel-options-magic",
+      "private": false
+    },
+    {
+      "label": "Novel Magic - Feats",
+      "type": "Item",
+      "name": "novel-magic-feats",
+      "path": "./packs/novel-magic-feats.db",
+      "system": "pf2e",
+      "package": "pf2e-novel-options-magic",
+      "private": false
+    },
+    {
+      "label": "Novel Magic - Spells",
+      "type": "Item",
+      "name": "novel-magic-spells",
+      "path": "./packs/novel-magic-spells.db",
+      "system": "pf2e",
+      "package": "pf2e-novel-options-magic",
+      "private": false
+    },
+    {
+      "label": "Novel Magic - Effects",
+      "type": "Item",
+      "name": "novel-magic-effects",
+      "path": "./packs/novel-magic-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-novel-options-magic",
+      "private": false
+    },
+    {
+      "label": "Novel Magic - Journals",
+      "type": "JournalEntry",
+      "name": "novel-magic-journals",
+      "path": "./packs/novel-magic-journals.db",
+      "system": "pf2e",
+      "package": "pf2e-novel-options-magic",
+      "private": false
+    }
+  ],
+  "flags": {
+    "pf2e-novel-options-magic": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "zealot": "Zealot",
+          "theurge": "Theurge"
+        },
+        "spellTraits": {
+          "judgement": {
+            "label": "Judgement",
+            "description": "A judgement is a type of focus spell unique to the zealot class. A judgement focus spell is cast like any other, except that it can only be cast in combat. Additionally a zealot may not have more than one judgement spell active at the same time. Should the zealot cast a new judgement spell while another is still active, the duration and effect of the previous judgement spell ends immediately. Some class feats may allow you to have multiple judgements active at once."
+          },
+          "exploit": {
+            "label": "Exploit",
+            "description": "When you use an Exploit spell, they allow you to change to a different tradition as if you had spent two actions on Break Tradition after you complete the spell."
+          },
+          "zealot": "Zealot",
+          "theurge": "Theurge"
+        }
+      }
+    }
+  },
+  "system": [
+    "pf2e"
+  ],
+  "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-novel-options-magic",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-novel-options-magic/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-novel-options-magic/archive/refs/heads/main.zip",
+  "minimumSystemVersion": "4.0"
+}
